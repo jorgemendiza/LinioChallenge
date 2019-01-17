@@ -29,7 +29,7 @@ class FavoritosCollectionViewCell: UICollectionViewCell {
         self.collectionView.dataSource = self
         self.backgroundColor = .white
         self.collectionView.backgroundColor = UIColor(red: 247.0/255.0, green: 247.0/255.0, blue: 247.0/255.0, alpha: 1.0)
-        self.collectionView.layer.cornerRadius = 4.0
+        self.collectionView.layer.cornerRadius = 8.0
         ProductoImagenCollectionViewCell.registrar(collectionView: self.collectionView)
         let favoritoFlowLayout = MisFavoritosFlowLayout()
         self.collectionView.setCollectionViewLayout(favoritoFlowLayout, animated: true)

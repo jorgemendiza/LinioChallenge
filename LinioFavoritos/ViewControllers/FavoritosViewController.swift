@@ -10,12 +10,16 @@ import UIKit
 
 class FavoritosViewController: BaseViewController {
 
-    var items: [NSDictionary] = []
-    var todosLosProductos: [NSDictionary] = []
-    
-    var flowLayout: UICollectionViewFlowLayout {
-        return self.collectionView.collectionViewLayout as! UICollectionViewFlowLayout
+    var items: [NSDictionary] = [] {
+        didSet {
+            self.collectionView.setCollectionViewLayout(FavoritosFlowLayout(), animated: false)
+            self.collectionView.reloadData()
+            self.loader.stopAnimating()
+        }
     }
+    var todosLosProductos: [NSDictionary] = []
+    @IBOutlet weak var loader: UIActivityIndicatorView!
+    
     
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -25,11 +29,9 @@ class FavoritosViewController: BaseViewController {
         FavoritosCollectionViewCell.registrar(collectionView: self.collectionView)
         ProductoImagenCollectionViewCell.registrar(collectionView: self.collectionView)
         self.collectionView.register(UINib(nibName: "HeaderCollectionReusableView", bundle: nil), forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "HEADER")
-        self.collectionView.contentInset = UIEdgeInsets(top: 0.0, left: 9.0, bottom: 0.0, right: 9.0)
+        self.collectionView.contentInset = UIEdgeInsets(top: 9.0, left: 9.0, bottom: 9.0, right: 9.0)
         self.collectionView.dataSource = self
         self.collectionView.delegate = self
-        flowLayout.minimumInteritemSpacing = 9
-        flowLayout.minimumLineSpacing = 9
         self.collectionView.backgroundColor = UIColor(red: 247.0/255.0, green: 247.0/255.0, blue: 247.0/255.0, alpha: 1.0)
         Services.favoritos.load { [weak self] (response) in
             self?.manageResponse(response: response)
@@ -38,15 +40,7 @@ class FavoritosViewController: BaseViewController {
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-//        let currentSize = self.flowLayout.itemSize
-//        let width = (self.collectionView.frame.width / 2) - (9.0 + 4.5)
-//        let newSize = CGSize(width: width, height: width)
-//        if currentSize != newSize {
-//            flowLayout.itemSize = newSize
-//            self.collectionView.setCollectionViewLayout(FavoritosFlowLayout(), animated: false)
-//        }
-        self.collectionView.setCollectionViewLayout(FavoritosFlowLayout(), animated: false)
-        self.collectionView.reloadData()
+
     }
     
     override func manageData(data: Any) {
@@ -61,8 +55,7 @@ class FavoritosViewController: BaseViewController {
                 }
             }
             self.items = array
-            self.collectionView.setCollectionViewLayout(FavoritosFlowLayout(), animated: false)
-            self.collectionView.reloadData()
+            
         }
     }
     

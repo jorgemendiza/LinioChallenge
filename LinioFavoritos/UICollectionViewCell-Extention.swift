@@ -6,4 +6,12 @@
 //  Copyright © 2019 Jorge Mendizabal. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+
+class MyUICollectionViewCell: UICollectionViewCell {
+    
+    
+    
+    
+}

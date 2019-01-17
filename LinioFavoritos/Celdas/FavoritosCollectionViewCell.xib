@@ -39,8 +39,8 @@
                         <color key="textColor" red="0.74117647058823533" green="0.74117647058823533" blue="0.74117647058823533" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colección 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ra6-qv-nAW">
-                        <rect key="frame" x="8" y="155" width="90.5" height="20"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Colección 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Ra6-qv-nAW">
+                        <rect key="frame" x="8" y="155" width="301" height="20"/>
                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                         <color key="textColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
@@ -59,6 +59,7 @@
                 <constraint firstItem="rRu-Wb-7GN" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="neP-bk-mZS"/>
                 <constraint firstAttribute="bottom" secondItem="rRu-Wb-7GN" secondAttribute="bottom" constant="8" id="p18-xn-KbX"/>
                 <constraint firstItem="Ra6-qv-nAW" firstAttribute="top" secondItem="Pph-QH-t3V" secondAttribute="bottom" constant="12" id="rGB-hk-wO6"/>
+                <constraint firstAttribute="trailing" secondItem="Ra6-qv-nAW" secondAttribute="trailing" constant="8" id="t21-sp-Qn5"/>
                 <constraint firstItem="Ra6-qv-nAW" firstAttribute="leading" secondItem="rRu-Wb-7GN" secondAttribute="leading" id="u6Q-8G-lmC"/>
                 <constraint firstItem="bn4-1L-ZdK" firstAttribute="top" secondItem="Pph-QH-t3V" secondAttribute="bottom" id="uCd-ah-khL"/>
             </constraints>

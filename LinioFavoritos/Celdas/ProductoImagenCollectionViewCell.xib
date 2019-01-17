@@ -36,24 +36,33 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                     </collectionView>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ndIc24FavOnPink" translatesAutoresizingMaskIntoConstraints="NO" id="F5o-dR-d3W">
+                        <rect key="frame" x="159" y="4" width="24" height="24"/>
+                    </imageView>
                 </subviews>
             </view>
             <constraints>
                 <constraint firstAttribute="bottom" secondItem="a2i-z9-JH3" secondAttribute="bottom" id="0aD-Rt-0O5"/>
                 <constraint firstItem="a2i-z9-JH3" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="1eN-AQ-iGT"/>
                 <constraint firstAttribute="trailing" secondItem="a2i-z9-JH3" secondAttribute="trailing" id="4XW-gJ-Pk3"/>
+                <constraint firstItem="F5o-dR-d3W" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="4" id="78o-Pz-YfY"/>
                 <constraint firstAttribute="bottom" secondItem="HwP-ae-7xF" secondAttribute="bottom" id="7xY-SH-QxN"/>
                 <constraint firstItem="HwP-ae-7xF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="A8U-4b-0Oo"/>
                 <constraint firstItem="a2i-z9-JH3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="HKr-yh-HKB"/>
                 <constraint firstItem="HwP-ae-7xF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="tqi-8M-Wt6"/>
+                <constraint firstAttribute="trailing" secondItem="F5o-dR-d3W" secondAttribute="trailing" constant="4" id="zJL-KN-cdy"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="187" height="204"/>
             <connections>
                 <outlet property="collectionView" destination="HwP-ae-7xF" id="o1l-F0-NVf"/>
+                <outlet property="imageCorazon" destination="F5o-dR-d3W" id="rFS-K0-k3e"/>
                 <outlet property="imageProducto" destination="a2i-z9-JH3" id="rT5-s4-Uww"/>
             </connections>
             <point key="canvasLocation" x="-231.19999999999999" y="82.758620689655174"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <image name="ndIc24FavOnPink" width="24" height="24"/>
+    </resources>
 </document>

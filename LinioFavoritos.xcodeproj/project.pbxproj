@@ -7,23 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7054E70821F0E4F500BED240 /* FavoritosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054E70621F0E4F500BED240 /* FavoritosCollectionViewCell.swift */; };
+		7054E70921F0E4F500BED240 /* FavoritosCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7054E70721F0E4F500BED240 /* FavoritosCollectionViewCell.xib */; };
+		7054E70C21F0E6FF00BED240 /* ProductoImagenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054E70A21F0E6FF00BED240 /* ProductoImagenCollectionViewCell.swift */; };
+		7054E70D21F0E6FF00BED240 /* ProductoImagenCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7054E70B21F0E6FF00BED240 /* ProductoImagenCollectionViewCell.xib */; };
+		7054E71121F1029000BED240 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054E71021F1029000BED240 /* Service.swift */; };
+		7054E71321F103F400BED240 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054E71221F103F400BED240 /* BaseViewController.swift */; };
+		7054E71521F1150800BED240 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054E71421F1150800BED240 /* Badge.swift */; };
+		7054E71721F11C8900BED240 /* FavoritosFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054E71621F11C8900BED240 /* FavoritosFlowLayout.swift */; };
+		7054E71A21F1223700BED240 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054E71821F1223700BED240 /* HeaderCollectionReusableView.swift */; };
+		7054E71B21F1223700BED240 /* HeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7054E71921F1223700BED240 /* HeaderCollectionReusableView.xib */; };
 		7079617621EFC59300EDA420 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7079617521EFC59300EDA420 /* AppDelegate.swift */; };
-		7079617821EFC59300EDA420 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7079617721EFC59300EDA420 /* ViewController.swift */; };
+		7079617821EFC59300EDA420 /* FavoritosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7079617721EFC59300EDA420 /* FavoritosViewController.swift */; };
 		7079617B21EFC59300EDA420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7079617921EFC59300EDA420 /* Main.storyboard */; };
 		7079617E21EFC59300EDA420 /* LinioFavoritos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7079617C21EFC59300EDA420 /* LinioFavoritos.xcdatamodeld */; };
 		7079618021EFC59400EDA420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7079617F21EFC59400EDA420 /* Assets.xcassets */; };
 		7079618321EFC59400EDA420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7079618121EFC59400EDA420 /* LaunchScreen.storyboard */; };
+		7079618B21EFC5D400EDA420 /* MisFavoritosFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7079618A21EFC5D400EDA420 /* MisFavoritosFlowLayout.swift */; };
+		AC6723C1FCC7DAB263D9D9F3 /* Pods_LinioFavoritos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7E1C6570D37B95692CF0DD /* Pods_LinioFavoritos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E602EB8A7F257D6E5AB451A /* Pods-LinioFavoritos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinioFavoritos.release.xcconfig"; path = "Pods/Target Support Files/Pods-LinioFavoritos/Pods-LinioFavoritos.release.xcconfig"; sourceTree = "<group>"; };
+		7054E70621F0E4F500BED240 /* FavoritosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosCollectionViewCell.swift; sourceTree = "<group>"; };
+		7054E70721F0E4F500BED240 /* FavoritosCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritosCollectionViewCell.xib; sourceTree = "<group>"; };
+		7054E70A21F0E6FF00BED240 /* ProductoImagenCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoImagenCollectionViewCell.swift; sourceTree = "<group>"; };
+		7054E70B21F0E6FF00BED240 /* ProductoImagenCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductoImagenCollectionViewCell.xib; sourceTree = "<group>"; };
+		7054E71021F1029000BED240 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		7054E71221F103F400BED240 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		7054E71421F1150800BED240 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		7054E71621F11C8900BED240 /* FavoritosFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosFlowLayout.swift; sourceTree = "<group>"; };
+		7054E71821F1223700BED240 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		7054E71921F1223700BED240 /* HeaderCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCollectionReusableView.xib; sourceTree = "<group>"; };
 		7079617221EFC59300EDA420 /* LinioFavoritos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinioFavoritos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7079617521EFC59300EDA420 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7079617721EFC59300EDA420 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7079617721EFC59300EDA420 /* FavoritosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritosViewController.swift; sourceTree = "<group>"; };
 		7079617A21EFC59300EDA420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7079617D21EFC59300EDA420 /* LinioFavoritos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LinioFavoritos.xcdatamodel; sourceTree = "<group>"; };
 		7079617F21EFC59400EDA420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7079618221EFC59400EDA420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7079618421EFC59400EDA420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7079618A21EFC5D400EDA420 /* MisFavoritosFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisFavoritosFlowLayout.swift; sourceTree = "<group>"; };
+		8C7E1C6570D37B95692CF0DD /* Pods_LinioFavoritos.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinioFavoritos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D637B99DBBD992036D69712A /* Pods-LinioFavoritos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinioFavoritos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LinioFavoritos/Pods-LinioFavoritos.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,60 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6723C1FCC7DAB263D9D9F3 /* Pods_LinioFavoritos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7054E71C21F1262F00BED240 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				7079618A21EFC5D400EDA420 /* MisFavoritosFlowLayout.swift */,
+				7054E71621F11C8900BED240 /* FavoritosFlowLayout.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		7054E71D21F1268F00BED240 /* Celdas */ = {
+			isa = PBXGroup;
+			children = (
+				7054E71421F1150800BED240 /* Badge.swift */,
+				7054E71821F1223700BED240 /* HeaderCollectionReusableView.swift */,
+				7054E71921F1223700BED240 /* HeaderCollectionReusableView.xib */,
+				7054E70621F0E4F500BED240 /* FavoritosCollectionViewCell.swift */,
+				7054E70721F0E4F500BED240 /* FavoritosCollectionViewCell.xib */,
+				7054E70A21F0E6FF00BED240 /* ProductoImagenCollectionViewCell.swift */,
+				7054E70B21F0E6FF00BED240 /* ProductoImagenCollectionViewCell.xib */,
+			);
+			path = Celdas;
+			sourceTree = "<group>";
+		};
+		7054E71E21F126AE00BED240 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7079617721EFC59300EDA420 /* FavoritosViewController.swift */,
+				7054E71221F103F400BED240 /* BaseViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7054E71F21F126EB00BED240 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				7054E71021F1029000BED240 /* Service.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
 		7079616921EFC59300EDA420 = {
 			isa = PBXGroup;
 			children = (
 				7079617421EFC59300EDA420 /* LinioFavoritos */,
 				7079617321EFC59300EDA420 /* Products */,
+				B5E9DF845F81EC9AA3306D55 /* Pods */,
+				DB809E3B78572DEE1F5E5BAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +125,11 @@
 		7079617421EFC59300EDA420 /* LinioFavoritos */ = {
 			isa = PBXGroup;
 			children = (
+				7054E71C21F1262F00BED240 /* Layouts */,
+				7054E71D21F1268F00BED240 /* Celdas */,
+				7054E71E21F126AE00BED240 /* ViewControllers */,
+				7054E71F21F126EB00BED240 /* Api */,
 				7079617521EFC59300EDA420 /* AppDelegate.swift */,
-				7079617721EFC59300EDA420 /* ViewController.swift */,
 				7079617921EFC59300EDA420 /* Main.storyboard */,
 				7079617F21EFC59400EDA420 /* Assets.xcassets */,
 				7079618121EFC59400EDA420 /* LaunchScreen.storyboard */,
@@ -67,6 +139,23 @@
 			path = LinioFavoritos;
 			sourceTree = "<group>";
 		};
+		B5E9DF845F81EC9AA3306D55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D637B99DBBD992036D69712A /* Pods-LinioFavoritos.debug.xcconfig */,
+				2E602EB8A7F257D6E5AB451A /* Pods-LinioFavoritos.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DB809E3B78572DEE1F5E5BAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C7E1C6570D37B95692CF0DD /* Pods_LinioFavoritos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +163,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7079618721EFC59400EDA420 /* Build configuration list for PBXNativeTarget "LinioFavoritos" */;
 			buildPhases = (
+				AFB14EBD964F82A25F1EE240 /* [CP] Check Pods Manifest.lock */,
 				7079616E21EFC59300EDA420 /* Sources */,
 				7079616F21EFC59300EDA420 /* Frameworks */,
 				7079617021EFC59300EDA420 /* Resources */,
+				6536EEAB66F01D9A08D53AF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +216,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7054E70921F0E4F500BED240 /* FavoritosCollectionViewCell.xib in Resources */,
 				7079618321EFC59400EDA420 /* LaunchScreen.storyboard in Resources */,
+				7054E71B21F1223700BED240 /* HeaderCollectionReusableView.xib in Resources */,
 				7079618021EFC59400EDA420 /* Assets.xcassets in Resources */,
 				7079617B21EFC59300EDA420 /* Main.storyboard in Resources */,
+				7054E70D21F0E6FF00BED240 /* ProductoImagenCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6536EEAB66F01D9A08D53AF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LinioFavoritos/Pods-LinioFavoritos-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LinioFavoritos/Pods-LinioFavoritos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFB14EBD964F82A25F1EE240 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinioFavoritos-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7079616E21EFC59300EDA420 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7054E70821F0E4F500BED240 /* FavoritosCollectionViewCell.swift in Sources */,
+				7054E71521F1150800BED240 /* Badge.swift in Sources */,
+				7054E71121F1029000BED240 /* Service.swift in Sources */,
 				7079617E21EFC59300EDA420 /* LinioFavoritos.xcdatamodeld in Sources */,
-				7079617821EFC59300EDA420 /* ViewController.swift in Sources */,
+				7054E71A21F1223700BED240 /* HeaderCollectionReusableView.swift in Sources */,
+				7079617821EFC59300EDA420 /* FavoritosViewController.swift in Sources */,
+				7054E71321F103F400BED240 /* BaseViewController.swift in Sources */,
+				7054E70C21F0E6FF00BED240 /* ProductoImagenCollectionViewCell.swift in Sources */,
+				7054E71721F11C8900BED240 /* FavoritosFlowLayout.swift in Sources */,
 				7079617621EFC59300EDA420 /* AppDelegate.swift in Sources */,
+				7079618B21EFC5D400EDA420 /* MisFavoritosFlowLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +427,7 @@
 		};
 		7079618821EFC59400EDA420 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D637B99DBBD992036D69712A /* Pods-LinioFavoritos.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +446,7 @@
 		};
 		7079618921EFC59400EDA420 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E602EB8A7F257D6E5AB451A /* Pods-LinioFavoritos.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -14,6 +14,7 @@ class ProductoImagenCollectionViewCell: UICollectionViewCell {
     static let identifier: String = "ProductoImagenCollectionViewCell"
     static let nib: UINib = UINib(nibName: "ProductoImagenCollectionViewCell", bundle: nil)
     
+    @IBOutlet weak var imageCorazon: UIImageView!
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var imageProducto: UIImageView!
     
@@ -27,6 +28,7 @@ class ProductoImagenCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
         self.layer.cornerRadius = 8.0
         self.layer.masksToBounds = true
+        self.backgroundColor = .clear
         self.collectionView.backgroundColor = .clear
         self.collectionView.dataSource = self
         ProductoImagenCollectionViewCell.registrar(collectionView: self.collectionView)
@@ -56,10 +58,12 @@ extension ProductoImagenCollectionViewCell {
     func configurar(favorito: NSDictionary) {
         self.collectionView.isHidden = true
         self.configurar(producto: favorito)
+        self.imageCorazon.isHidden = true
     }
     
     func configurar(producto: NSDictionary) {
         self.imageProducto.image = nil
+        self.imageCorazon.isHidden = false
         if let urlstring = producto.value(forKey: "image") as? String {
             if let url = URL(string: urlstring) {
                 self.imageProducto.af_setImage(withURL: url)
