@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ProductoImagenCollectionViewCell" customModule="LinioFavoritos" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="187" height="204"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="187" height="204"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="a2i-z9-JH3">
+                        <rect key="frame" x="0.0" y="0.0" width="187" height="204"/>
+                        <color key="backgroundColor" red="0.8862745098" green="0.023529411760000001" blue="0.074509803920000006" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="HwP-ae-7xF">
+                        <rect key="frame" x="0.0" y="0.0" width="30" height="204"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="3Jf-6S-WUQ"/>
+                        </constraints>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="38v-MK-MHM">
+                            <size key="itemSize" width="30" height="30"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="a2i-z9-JH3" secondAttribute="bottom" id="0aD-Rt-0O5"/>
+                <constraint firstItem="a2i-z9-JH3" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="1eN-AQ-iGT"/>
+                <constraint firstAttribute="trailing" secondItem="a2i-z9-JH3" secondAttribute="trailing" id="4XW-gJ-Pk3"/>
+                <constraint firstAttribute="bottom" secondItem="HwP-ae-7xF" secondAttribute="bottom" id="7xY-SH-QxN"/>
+                <constraint firstItem="HwP-ae-7xF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="A8U-4b-0Oo"/>
+                <constraint firstItem="a2i-z9-JH3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="HKr-yh-HKB"/>
+                <constraint firstItem="HwP-ae-7xF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="tqi-8M-Wt6"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="187" height="204"/>
+            <connections>
+                <outlet property="collectionView" destination="HwP-ae-7xF" id="o1l-F0-NVf"/>
+                <outlet property="imageProducto" destination="a2i-z9-JH3" id="rT5-s4-Uww"/>
+            </connections>
+            <point key="canvasLocation" x="-231.19999999999999" y="82.758620689655174"/>
+        </collectionViewCell>
+    </objects>
+</document>
